@@ -24,3 +24,14 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.sc-ion-label-md-s p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: unset;
+  text-overflow: inherit;
+  overflow: inherit;
+}

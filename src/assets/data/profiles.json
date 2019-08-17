@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"name": "Snow Bases",
+		"text": "Coming Home",
+		"image": "assets/images/sample-1.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Arctic Empire",
+		"text": "I come for the beautiful background picture I stay fort the beautiful music",
+		"image": "assets/images/sample-2.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Coffee Cake",
+		"text": "it would be nice to live in a world like that picture ",
+		"image": "assets/images/sample-3.jpg"
+	},
+	{
+		"id": 4,
+		"name": "GD Faded",
+		"text": "I just love the tiger with the hat...*Edit-> The playlist is also good",
+		"image": "assets/images/sample-4.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Cyber 07",
+		"text": "Awesome mix! Love it! But i wanted to ask if this mix is NCS or i can use this mix for my youtube videos. Thanks!",
+		"image": "assets/images/sample-5.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Zerland Boros",
+		"text": "Both the music and the picture are so inspiring to me.. It's truly insane how music can affect us.",
+		"image": "assets/images/sample-6.jpg"
+	}
+]

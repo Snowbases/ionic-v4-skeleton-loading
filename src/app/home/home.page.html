@@ -1,14 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Loading
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content padding>
+  <ion-row>
+    <ion-col *ngFor="let profile of profiles" style="display: flex; border-bottom: 1px solid #dedede;" size="12">
+      <div style="margin: 1em 0;">
+        <app-loading height="60px" width="60px" radius="100%" [image]="profile.image"></app-loading>
+      </div>
+      <div>
+        <div style="margin: 1em 0 1em 1em;">
+          <app-loading height="1em" width="210px" [text]="profile.name"></app-loading>
+        </div>
+        <div style="margin: 1em 0 1em 1em;">
+          <app-loading height="4em" width="210px" [text]="profile.text"></app-loading>
+        </div>
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-content>

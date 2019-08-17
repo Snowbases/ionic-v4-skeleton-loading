@@ -1,0 +1,4 @@
+<div id="loading" class="linear-background">
+  <p *ngIf="mode == 'text'">{{ _text }}</p>
+  <img id="image" *ngIf="mode == 'image'" [src]="_image" alt="" [ngStyle]="styles">
+</div>
